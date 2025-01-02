@@ -20,7 +20,7 @@ The preprocess.py script reads the raw dataset (data/raw/data.csv), performs bas
 This stage ensures that data is consistently processed across runs.
 Training:
 
-The train.py script trains a Random Forest Classifier on the preprocessed data.
+The train.py script trains a Random Forest Classifier on the preprocessed data
 The model is saved as models/random_forest.pkl.
 Hyperparameters and the model itself are logged into MLflow for tracking and comparison.
 Evaluation:
